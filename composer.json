@@ -3,22 +3,12 @@
 	"type": "library",
 	"description": "Redis backed library for creating background jobs and processing them later. Based on resque for Ruby.",
 	"keywords": ["job", "background", "redis", "resque"],
-	"homepage": "http://www.github.com/resque/php-resque/",
+	"homepage": "https://github.com/nazmulislam/resque-background-job",
 	"license": "MIT",
 	"authors": [
 		{
-			"name": "Dan Hunsaker",
-			"email": "danhunsaker+resque@gmail.com",
-			"role": "Maintainer"
-		},
-		{
-			"name": "Rajib Ahmed",
-			"homepage": "https://github.com/rajibahmed",
-			"role": "Maintainer"
-		},
-		{
-			"name": "Steve Klabnik",
-			"email": "steve@steveklabnik.com",
+			"name": "Nazmul Islam",
+			"homepage": "https://github.com/nazmulislam",
 			"role": "Maintainer"
 		},
 		{
@@ -28,9 +18,9 @@
 		}
 	],
 	"require": {
-		"php": ">=5.6.0",
-		"colinmollenhour/credis": "~1.7",
-		"psr/log": "~1.0"
+		"php": ">=8.2",
+		"colinmollenhour/credis": "~1.7"
+		
 	},
 	"suggest": {
 		"ext-pcntl": "REQUIRED for forking processes on platforms that support it (so anything but Windows).",
